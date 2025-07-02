@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem em Família - Beto Carrero World 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-crown"></i>
+                <span>Aventura Real</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#familias" class="nav-link">As Famílias</a></li>
+                <li><a href="#roteiro" class="nav-link">Roteiro</a></li>
+                <li><a href="#atracoes" class="nav-link">Atrações</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="images/castelo-beto-carrero.jpeg" alt="Castelo Beto Carrero" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Aventura Real</span>
+                <span class="title-line">no Reino de</span>
+                <span class="title-line highlight">Beto Carrero</span>
+            </h1>
+            <p class="hero-subtitle">Três famílias, uma aventura épica</p>
+            <div class="hero-details">
+                <div class="detail-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>3 a 13 de Outubro, 2025</span>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-users"></i>
+                    <span>6 Adultos • 7 Crianças</span>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Santa Catarina, Brasil</span>
+                </div>
+            </div>
+            <div class="countdown-container">
+                <h3>Contagem Regressiva para a Aventura</h3>
+                <div id="countdown" class="countdown">
+                    <div class="countdown-item">
+                        <span id="days">0</span>
+                        <label>Dias</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">0</span>
+                        <label>Horas</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">0</span>
+                        <label>Minutos</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">0</span>
+                        <label>Segundos</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Seção das Famílias -->
+    <section id="familias" class="families-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-crown"></i>
+                As Famílias Reais
+            </h2>
+            <div class="families-grid">
+                <div class="family-card">
+                    <div class="family-header">
+                        <h3>Família Real Azul</h3>
+                        <div class="family-crest">👑</div>
+                    </div>
+                    <div class="family-members">
+                        <div class="parents">
+                            <h4>Os Reis</h4>
+                            <p><strong>Daniel</strong> e <strong>Rafaela</strong></p>
+                        </div>
+                        <div class="children">
+                            <h4>As Princesas</h4>
+                            <ul>
+                                <li>Helena (7 anos) 👸</li>
+                                <li>Sarah (4 anos) 👸</li>
+                                <li>Sofia (2 anos) 👸</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="family-card">
+                    <div class="family-header">
+                        <h3>Família Real Verde</h3>
+                        <div class="family-crest">👑</div>
+                    </div>
+                    <div class="family-members">
+                        <div class="parents">
+                            <h4>Os Reis</h4>
+                            <p><strong>Mateus</strong> e <strong>Patrícia</strong></p>
+                        </div>
+                        <div class="children">
+                            <h4>Os Herdeiros</h4>
+                            <ul>
+                                <li>Beatriz (7 anos) 👸</li>
+                                <li>Gabriela (4 anos) 👸</li>
+                                <li>Rafael (2 anos) 🤴</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="family-card">
+                    <div class="family-header">
+                        <h3>Família Real Dourada</h3>
+                        <div class="family-crest">👑</div>
+                    </div>
+                    <div class="family-members">
+                        <div class="parents">
+                            <h4>Os Reis</h4>
+                            <p><strong>Frota</strong> e <strong>Nathalie</strong></p>
+                        </div>
+                        <div class="children">
+                            <h4>A Princesa</h4>
+                            <ul>
+                                <li>Liz (7 anos) 👸</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção do Roteiro -->
+    <section id="roteiro" class="itinerary-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-scroll"></i>
+                Pergaminho da Jornada
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Dia 1 - Partida Real</h3>
+                        <p><strong>3 de Outubro (Sexta-feira)</strong></p>
+                        <ul>
+                            <li>Voo FOR → GRU: 4:45 - 8:15</li>
+                            <li>Conexão em São Paulo (8h) - Sala VIP</li>
+                            <li>Voo GRU → NVT: 16:15 - 17:25</li>
+                            <li>Chegada ao Reino de Santa Catarina</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-castle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Dias 2-3 - Conquista do Castelo</h3>
+                        <p><strong>Beto Carrero World (2 dias)</strong></p>
+                        <ul>
+                            <li>Exploração das terras mágicas</li>
+                            <li>Aventuras nas atrações infantis</li>
+                            <li>Shows e apresentações reais</li>
+                            <li>⚠️ Levar capas de chuva!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Exploração dos Reinos Vizinhos</h3>
+                        <p><strong>Balneário Camboriú & Pomerode</strong></p>
+                        <ul>
+                            <li>Unipraias - Aventura nas alturas</li>
+                            <li>Oceanic Aquarium - Reino dos mares</li>
+                            <li>Oktoberfest - Festivais reais</li>
+                            <li>Alles Park - Terra da neve eterna</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-plane-arrival"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Dia 11 - Retorno ao Reino</h3>
+                        <p><strong>13 de Outubro (Segunda-feira)</strong></p>
+                        <ul>
+                            <li>Voo NVT → CGH: 11:40 - 12:45</li>
+                            <li>Conexão em São Paulo (1h15)</li>
+                            <li>Voo CGH → FOR: 14:00 - 17:30</li>
+                            <li>Chegada ao lar com memórias reais</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Atrações -->
+    <section id="atracoes" class="attractions-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-magic"></i>
+                Atrações Mágicas do Reino
+            </h2>
+            <div class="attractions-tabs">
+                <button class="tab-button active" data-tab="infantil">
+                    <i class="fas fa-child"></i>
+                    Para os Pequenos Nobres
+                </button>
+                <button class="tab-button" data-tab="familia">
+                    <i class="fas fa-users"></i>
+                    Para Toda a Corte
+                </button>
+                <button class="tab-button" data-tab="shows">
+                    <i class="fas fa-theater-masks"></i>
+                    Espetáculos Reais
+                </button>
+            </div>
+
+            <div class="tab-content active" id="infantil">
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <h4>Baby Elefante</h4>
+                        <p>Voo mágico para os pequenos aventureiros</p>
+                        <span class="age-tag">2+ anos</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Montanha-Russa Dum Dum</h4>
+                        <p>Primeira aventura de montanha-russa</p>
+                        <span class="age-tag">4+ anos</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Carrossel Veneziano</h4>
+                        <p>Cavalos mágicos importados da Itália</p>
+                        <span class="age-tag">Todas as idades</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Tigor Mountain</h4>
+                        <p>Aventura na estação da Vila Germânica</p>
+                        <span class="age-tag">3+ anos</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Hot Wheels Extreme Kids</h4>
+                        <p>Diversão para garotada no mundo Hot Wheels</p>
+                        <span class="age-tag">4+ anos</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Ferrovia DinoMagic</h4>
+                        <p>Viagem no tempo com dinossauros</p>
+                        <span class="age-tag">3+ anos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="familia">
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <h4>Super Soaker Splash</h4>
+                        <p>Desafio aquático para toda família</p>
+                        <span class="age-tag">90cm+</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Roda-Gigante</h4>
+                        <p>Vista privilegiada do reino</p>
+                        <span class="age-tag">90cm+</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Barco Pirata</h4>
+                        <p>Aventura viking que desafia a gravidade</p>
+                        <span class="age-tag">1,20m+</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Autopista (Bate-bate)</h4>
+                        <p>Todos viram pilotos reais</p>
+                        <span class="age-tag">1,10m+</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="shows">
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <h4>Madagascar Circus Show</h4>
+                        <p>Espetáculo circense com os personagens</p>
+                        <span class="age-tag">Todas as idades</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Excalibur</h4>
+                        <p>Show medieval épico</p>
+                        <span class="age-tag">Todas as idades</span>
+                    </div>
+                    <div class="attraction-card">
+                        <h4>Encontro com Personagens</h4>
+                        <p>Fotos com Shrek, Trolls e outros</p>
+                        <span class="age-tag">Todas as idades</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Galeria -->
+    <section id="galeria" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-camera"></i>
+                Galeria Real de Memórias
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/nN2KwmftoGW6.webp" alt="Beto Carrero World">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/6LNXVZb7rVpZ.jpg" alt="Atrações Infantis">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/z5Blb68Vr4va.jpg" alt="Madagascar Show">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/GeXqPNhRmtgr.jpg" alt="Carrossel">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Aventura Real 2025</h4>
+                    <p>Uma jornada épica de três famílias no maior reino de diversões da América Latina.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatos Reais</h4>
+                    <p>Para emergências durante a viagem</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aventura Real - Beto Carrero World. Criado com ❤️ para as famílias.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
